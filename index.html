@@ -1,0 +1,3248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashraf - personal portfolio</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <!-- custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+
+  <!--===== Font Awesome =====-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body id="top" class="dark_theme">
+  <!-- #HEADER -->
+  <header class="header" data-header>
+    <div class="container">
+      <h1 class="h1 logo">
+        <a href="#">Ashraf Qasem<span>.</span></a>
+      </h1>
+
+      <div class="navbar-actions">
+        <select name="language" id="lang">
+          <option value="en">En</option>
+          <option value="ar">Ar</option>
+        </select>
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li>
+            <a href="#home" class="navbar-link">Home.</a>
+          </li>
+          <li>
+            <a href="#about" class="navbar-link">About.</a>
+          </li>
+          <li>
+            <a href="#skills" class="navbar-link">Skills.</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="navbar-link">Projects.</a>
+          </li>
+          <li>
+            <a href="#resume" class="navbar-link">Resume.</a>
+          </li>
+          <li>
+            <a href="#contact" class="navbar-link">Contact.</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <article class="container">
+      <!-- #HERO -->
+      <section class="hero" id="home">
+        <figure class="hero-banner">
+          <picture>
+            <source srcset="./assets/images/hero-banner.png" media="(min-width: 768px)">
+            <source srcset="./assets/images/hero-banner-md.png" media="(min-width: 500px)">
+            <img src="./assets/images/hero-banner-sm.png" alt="A man in a blue shirt with a happy expression"
+              class="w-100">
+          </picture>
+        </figure>
+        <div class="hero-content">
+          <h2 class="h2 hero-title">Ashraf Qasem</h2>
+          <h3 class="h2_ hero-title">I'm a Full Stack .NET Developer </h3>
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+        </div>
+        <ul class="hero-social-list">
+          <li>
+            <a href="#" class="hero-social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+              <div class="tooltip">Facebook</div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hero-social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+              <div class="tooltip">Twitter</div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="hero-social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+              <div class="tooltip">Linkedin</div>
+            </a>
+          </li>
+        </ul>
+        <a href="#stats" class="scroll-down">Scroll</a>
+      </section>
+
+      <!-- #STATS -->
+      <!-- <section class="stats" id="stats">
+        <ul class="stats-list">
+          <li>
+            <a href="#" class="stats-card">
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-1.png" alt="Badge icon">
+              </div>
+              <h2 class="h2 card-title">
+                12+ <strong>Years of Experience</strong>
+              </h2>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="stats-card">
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-2.png" alt="Checkmark icon">
+              </div>
+              <h2 class="h2 card-title">
+                230+ <strong>Completed Projects</strong>
+              </h2>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="stats-card">
+              <div class="card-icon">
+                <img src="./assets/images/stats-card_icon-3.png" alt="Peoples rating icon">
+              </div>
+              <h2 class="h2 card-title">
+                95+ <strong>Happy Clients</strong>
+              </h2>
+              <ion-icon name="chevron-forward-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+      </section> -->
+
+      <!--#ABOUT -->
+      <section class="about" id="about">
+        <figure class="about-banner">
+          <img src="./assets/images/about-banner.png" alt="A man in a alice blue shirt with a thinking expression"
+            class="w-100">
+        </figure>
+        <div class="about-content section-content">
+          <p class="section-subtitle">About me</p>
+          <h2 class="h3 section-title">Need a Creative Product? I can Help You!</h2>
+          <p class="section-text">
+            Hi! I’m Ashraf Qasem, and I’m a developer who has passion for building clean web applications with intuitive
+            functionalities. I enjoy the process of turning ideas into reality using creative solutions. I’m always
+            curious about
+            learning new skills, tools, and concepts. In addition to working on various solo full stack projects, I have
+            worked with
+            creative teams, which involves daily stand-ups and communications, source control, and project management.
+          </p>
+          <div class="btn-group">
+            <button class="btn btn-secondary">Hire me</button>
+            <button class="btn btn-primary">Download cv</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- #SKILLS -->
+      <section class="skills" id="skills">
+        <div class="skills-content section-content">
+          <p class="section-subtitle">My skills</p>
+          <h2 class="h3 section-title">What My Programming Skills Included?</h2>
+          <p class="section-text">
+            I develop simple, intuitive and responsive user interface that helps users get things done with less effort
+            and time with those technologies.
+          </p>
+          <!-- <div class="skills-toggle" data-toggle-box>
+            <button class="toggle-btn active" data-toggle-btn>All Skills</button>
+            <button class="toggle-btn" data-toggle-btn>Back-End</button>
+            <button class="toggle-btn" data-toggle-btn>Front-End</button>
+            <button class="toggle-btn" data-toggle-btn>Cloud</button>
+          </div> -->
+        </div>
+        <div class="skills-box" data-skills-box>
+          <h1 style="text-align: center; font-size: 23px; color: var(--raw-seinna); margin: 0px 0 30px 0;">
+            Back-End technologies
+          </h1>
+          <ul class="skills-list">
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">ASP.NET Web API</div>
+                <div class="tooltip-2">
+                  ASP.NET Web API is a framework that helps you to build services by making it easy to reach a wide
+                  range of
+                  clients including browsers, mobiles, tablets. With ASP.NET, you can use the same framework for
+                  creating web pages and services both.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/Microsoft/ASP.NET_WebAPI/ASP.NET_WebAPI_02.jpg"
+                    alt="ASP.NET Web API logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">ASP.NET MVC</div>
+                <div class="tooltip-2">
+                  ASP.NET MVC is a framework for building Web app using HTML, CSS and JavaScript, and implements the
+                  model–view–controller design pattern, which used to decouple view, model, controller, to achieve
+                  separation of concerns.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/Microsoft/ASP.NET_MVC/ASP.NET_MVC_564353.jpg"
+                    alt="ASP.NET MVC logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">C#</div>
+                <div class="tooltip-2">
+                  C# is a modern, object-oriented, and type-safe programming language. C# enables developers to build
+                  many types of secure and robust applications that run in the .NET framework.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/Microsoft/CSharp/CSharp_357756.jpg" alt="C# logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">SQL Server</div>
+                <div class="tooltip-2">
+                  Microsoft SQL Server is a relational database management system. It is a software product
+                  with the primary function of storing and retrieving data as requested by other software applications.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/Microsoft/SQL_Server/SQL_Server_75554.png"
+                    alt="SQL Server logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Entity Framework</div>
+                <div class="tooltip-2">
+                  Entity Framework is an Object Relational Mapper (ORM) for .NET. It's a type of tool that simplifies
+                  mapping between objects in the software to the tables and columns of a relational database like MS SQL
+                  Server DB.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/Microsoft/Entity_Framework/Entity_Framework_34627.png"
+                    alt="Entity Framework">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Linq</div>
+                <div class="tooltip-2">
+                  LINQ (Language Integrated Query) is a .NET language extension that supports data retrieval from
+                  different data sources like XML document, databases and collections.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/Microsoft/Linq/Linq_01.png" alt="Linq">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">ADO.NET</div>
+                <div class="tooltip-2">
+                  ADO.NET provides consistent access to data sources such as SQL Server and XML. ADO.NET used to perform
+                  basic CRUD operations like create, read, update and delete on data stored in both relational databases
+                  as well as the non-relational database.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/Microsoft/ADO_NET/ADOnet_01.png" alt="ADO.NET">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">SignalR</div>
+                <div class="tooltip-2">
+                  SignalR is a software library for Microsoft ASP.NET that allows server code to send asynchronous
+                  notifications to client-side web applications. The library includes server-side and client-side
+                  JavaScript components.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/SignalR/SignalR_01.png" alt="SignalR">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Quartz.NET</div>
+                <div class="tooltip-2">
+                  Quartz.NET is a job scheduling framework that schedules, controls, and manages your recurring tasks. A
+                  job scheduler is a system that is responsible for executing other software components when a
+                  predetermined (scheduled) time arrives.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/Quartz_NET/QuartzNET_01.png" alt="Quartz.NET">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Serilog .NET</div>
+                <div class="tooltip-2">
+                  Serilog is a .NET library that provides diagnostic logging to files, the console, Seq log web server
+                  and almost everywhere you would like. that allows for more detailed and structured logging than the
+                  default .NET logging library.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/Logging/Serilog/Serilog_01.png" alt="Serilog .NET">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Seq</div>
+                <div class="tooltip-2">
+                  Seq is an online centralized structured logs for .NET, Java, Node.js, has intelligent search,
+                  analysis, and alerting server built specifically for modern structured log data.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/Logging/Seq/Seq_01.png" alt="Seq">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">NLog</div>
+                <div class="tooltip-2">
+                  NLog is a flexible and free logging platform for various .NET platforms. NLog makes it easy to write
+                  to several targets (database, file, console) and change the logging configuration on-the-fly.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/Logging/NLog/NLog_11.png" alt="NLog">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Castle Windsor (DI IoC)</div>
+                <div class="tooltip-2">
+                  Castle Windsor is Inversion of Control dependency injection container {DI IoC}. The IoC container
+                  creates an object of the specified class and also injects all the dependency objects through a
+                  constructor.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/CastleWindsor/CastleWindsor_11.png"
+                    alt="Castle Windsor (DI IoC)">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">MediatR</div>
+                <div class="tooltip-2">
+                  MediatR is a library that helps us to implement CQRS pattern and helps to reduce direct dependency
+                  between multiple objects. In .NET Core MediatR provides classes that help to communicate with multiple
+                  objects efficiently in a loosely coupled manner.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/MediatR/MediatR_01.png" alt="MediatR">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Cloudinary</div>
+                <div class="tooltip-2">
+                  Cloudinary is an image and video management tool enables users to upload, store, manage, manipulate,
+                  and deliver images and video for websites and apps.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/Cloudinary/Cloudinary_01.png" alt="Cloudinary">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Swagger</div>
+                <div class="tooltip-2">
+                  Swagger is an API specification and testing framework that uses OpenAPI standard, allows you to
+                  describe the structure of your APIs so that machines can read them.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/ApiTest/Swagger/Swagger_01.png" alt="Swagger">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Postman</div>
+                <div class="tooltip-2">
+                  Postman is a standalone software for testing and debugging API platform (Application Programming
+                  Interface). It has a simple User Interface for sending and viewing HTTP requests and responses.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/ApiTest/Postman/Postman_01.png" alt="Postman">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Fiddler</div>
+                <div class="tooltip-2">
+                  Fiddler is a web debugging tool helps you debug web applications by capturing network traffic between
+                  the Internet and test computers. The tool enables you to inspect incoming and outgoing data to monitor
+                  and modify requests and responses before the browser receives them.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/BackEnd/ApiTest/Fiddler/Fiddler_01.png" alt="Fiddler">
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="tools-list">
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Ajax</div>
+                <div class="tooltip-2">
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/images/ajax.png" alt="Ajax logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Gulp</div>
+                <div class="tooltip-2">
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/images/gulp.png" alt="Gulp logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Webpack</div>
+                <div class="tooltip-2">
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/images/webpack.png" alt="Webpack logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Git</div>
+                <div class="tooltip-2">
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/images/git.png" alt="Git logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Npm</div>
+                <div class="tooltip-2">
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/images/npm.png" alt="Npm logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Command Line</div>
+                <div class="tooltip-2">
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/images/command.png" alt="Command Line logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">VS Code</div>
+                <div class="tooltip-2">
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/images/vs-code.png" alt="VS Code logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Trello</div>
+                <div class="tooltip-2">
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/images/trello.png" alt="Trello logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">ClickUp</div>
+                <div class="tooltip-2">
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/images/clickup.png" alt="ClickUp logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Slack</div>
+                <div class="card-icon">
+                  <img src="./assets/images/slack.png" alt="Slack logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Photoshop</div>
+                <div class="tooltip-2">
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/images/photoshop.png" alt="Photoshop logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Adobe XD</div>
+                <div class="tooltip-2">
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/images/adobe-xd.png" alt="Adobe XD logo">
+                </div>
+              </div>
+            </li>
+          </ul>
+
+
+
+
+          <h1 style="text-align: center; font-size: 23px; color: var(--raw-seinna); margin: 50px 0 30px 0;">
+            Front-End technologies
+          </h1>
+          <ul class="skills-list">
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">React.js</div>
+                <div class="tooltip-2">
+                  React.js is a JavaScript library for building UI. React can be rendered on the server using Node.js.
+                  React efficiently updates and renders the appropriate components as your data changes.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/FrontEnd/React/React_01.jpg" alt="React.js">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JavaScript</div>
+                <div class="tooltip-2">
+                  JavaScript is a client-side scripting language that adds interactivity and conditional behavior
+                  to web pages, and it can update and change both HTML and CSS.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/FrontEnd/JavaScript/JavaScript_01.png" alt="JavaScript">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">HTML5</div>
+                <div class="tooltip-2">
+                  HTML (HyperText Markup Language) is for createing & structuring Web pages. 5 basic structures
+                  of HTML doc is DOCTYPE, html, head, title, & body. It can be assisted by CSS and JavaScript.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/FrontEnd/HTML/HTML_01.png" alt="HTML5">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">CSS3</div>
+                <div class="tooltip-2">
+                  CSS3 (Cascading Style Sheets) is a language used to style and layout web pages written in HTML or XML,
+                  to alter the font, color, or add animations and other decorative features.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/FrontEnd/CSS/CSS_01.png" alt="CSS3">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">jQuery</div>
+                <div class="tooltip-2">
+                  jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well
+                  as event handling, CSS animation, and Ajax.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/FrontEnd/JQuery/JQuery_7457.png" alt="jQuery">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Bootstrap</div>
+                <div class="tooltip-2">
+                  Bootstrap is a CSS framework directed for responsive, mobile front-end web development. It contains
+                  CSS and JavaScript, design templates for forms, buttons, navigation, and other UI components.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/FrontEnd/Bootstrap_Bootswatch/Bootstrap/Bootstrap_346555575.png"
+                    alt="Bootstrap">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Semantic UI</div>
+                <div class="tooltip-2">
+                  Semantic UI is a framework for building intuitive user interfaces with CSS, jQuery, and HTML. The
+                  Semantic UI functions as an overlay on top of the React components and provides Semantic themes as CSS
+                  stylesheet.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/FrontEnd/SemanticUI/SemanticUI_01.png" alt="Semantic UI">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">MobX</div>
+                <div class="tooltip-2">
+                  MobX is a state management solution allows you to manage application state outside of any UI
+                  framework, making the code decoupled, portable and, easy to test. It implements observable values,
+                  which are essentially using the publish/subscribe pattern.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/FrontEnd/React/State_Management/MobX/MobX_01.jpg" alt="MobX">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">DataTables</div>
+                <div class="tooltip-2">
+                  DataTables is a plug-in for the jQuery JavaScript library. It is a highly flexible tool, based upon
+                  the foundations of progressive enhancement, which will add advanced interaction controls to any HTML
+                  table.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/FrontEnd/DataTables/DataTables_555565.png" alt="DataTables">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Bootswatch</div>
+                <div class="tooltip-2">
+                  Bootswatch, it's a collection of themed swatches that you can download for free and drop into your
+                  Bootstrap site.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/FrontEnd/Bootstrap_Bootswatch/Bootswatch/Bootswatch_443453.png"
+                    alt="Bootswatch">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Chrome DevTools</div>
+                <div class="tooltip-2">
+                  Chrome DevTools is a set of web developer tools allow a developer to inspect , test and debug a
+                  website, and it built directly into the Google Chrome browser.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/FrontEnd/Debuggers/ChromeDevTools/ChromeDevTools_01.png"
+                    alt="Chrome DevTools">
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="tools-list">
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Ajax</div>
+                <div class="card-icon">
+                  <img src="./assets/images/ajax.png" alt="Ajax logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Gulp</div>
+                <div class="card-icon">
+                  <img src="./assets/images/gulp.png" alt="Gulp logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Webpack</div>
+                <div class="card-icon">
+                  <img src="./assets/images/webpack.png" alt="Webpack logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Git</div>
+                <div class="card-icon">
+                  <img src="./assets/images/git.png" alt="Git logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Npm</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/npm.png" alt="Npm logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Command Line</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/command.png" alt="Command Line logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">VS Code</div>
+                <div class="card-icon">
+                  <img src="./assets/images/vs-code.png" alt="VS Code logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Trello</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/trello.png" alt="Trello logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">ClickUp</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/clickup.png" alt="ClickUp logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Slack</div>
+                <div class="card-icon">
+                  <img src="./assets/images/slack.png" alt="Slack logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Photoshop</div>
+                <div class="card-icon">
+                  <img src="./assets/images/photoshop.png" alt="Photoshop logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Adobe XD</div>
+                <div class="card-icon">
+                  <img src="./assets/images/adobe-xd.png" alt="Adobe XD logo">
+                </div>
+              </div>
+            </li>
+          </ul>
+
+
+          <h1 style="text-align:center; font-size:23px; color: var(--raw-seinna); margin: 50px 0 30px 0;">
+            Cloud services & source controls
+          </h1>
+          <ul class="skills-list">
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Git</div>
+                <div class="tooltip-2">
+                  Git is a distributed version-control system for tracking changes in any set of files, originally
+                  designed for coordinating work among programmers cooperating on source code during software
+                  development.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/WebServices/SourceControles/git/git_10.png" alt="Git">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">GitHub</div>
+                <div class="tooltip-2">
+                  GitHub, Inc. is a provider of Internet hosting for software development and version control using
+                  Git. It offers the distributed version control and source code management (SCM) functionality of
+                  Git, plus its own features.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/WebServices/SourceControles/GitHub/GitHub_353656.png"
+                    alt="GitHub">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">GitChraken</div>
+                <div class="tooltip-2">
+                  GitKraken is a Source Code Management Desktop App for tracking code changes. It gives developers
+                  deep insight into their code repositories with a visual representation of the activities that happen
+                  within the code.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/WebServices/SourceControles/GitKraken/GitKraken_01.png"
+                    alt="GitChraken">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Bitbucket</div>
+                <div class="tooltip-2">
+                  Bitbucket Built for professional teams, Bitbucket is more than just Git code management.
+                  Bitbucket gives teams one place to plan projects, collaborate on code, test, and deploy.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/WebServices/SourceControles/Bitbucket/Bitbucket_1111.png"
+                    alt="Bitbucket">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Docker</div>
+                <div class="tooltip-2">
+                  Docker is a software platform that use OS-level virtualization to deliver software in a portable
+                  packages called containers. The containers will have everything the software needs to run including
+                  libraries, system tools, code, and runtime. The software that hosts the containers is called Docker
+                  Engine.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/WebServices/Docker/Docker_01.png" alt="Docker">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">TeamCity (CI/CD)</div>
+                <div class="tooltip-2">
+                  TeamCity is a Continuous Integration and Continuous Deployment server (CI/CD), it used to build and
+                  test software products in an automated manner, and provides an early reporting on build problems,
+                  reduces code integration problems, and leads to more effective teamwork.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/WebServices/TeamCity/TeamCity_02.png" alt="TeamCity (CI/CD)">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Fly.io</div>
+                <div class="tooltip-2">
+                  Fly.io, is a cloud application platform for running full-stack applications and databases.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/WebServices/WebHostings/Flyio/Flyio_01.jpg" alt="Fly.io">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Heroku</div>
+                <div class="tooltip-2">
+                  Heroku is a cloud web hosting platform as a service supporting several programming languages.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/WebServices/WebHostings/Heroku/Heroku_01.png" alt="Heroku">
+                </div>
+              </div>
+            </li>
+            <!-- <li>
+                <div class="skill-card">
+                  <div class="tooltip">Azure</div>
+                  <div class="tooltip-2">
+                    Microsoft Azure, is a cloud computing service created by Microsoft for building, testing, deploying,
+                    and managing applications and services through Microsoft-managed data centers.
+                  </div>
+                  <div class="card-icon">
+                    <img src="./assets/img/images/Skills/WebServices/WebHostings/Microsoft/Azure/Azure_57347348.png"
+                      alt="Azure">
+                  </div>
+                </div>
+              </li> -->
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Somee.com</div>
+                <div class="tooltip-2">
+                  Somee.com provides Windows, ASP.NET, and MS SQL hosting services as well as VPS/VDS solutions.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/WebServices/WebHostings/SOMEE_COM/SOMEE_COM_01.png"
+                    alt="Somee.com">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">FreeASPHosting</div>
+                <div class="tooltip-2">
+                  FreeASPHosting a cloud-based platform that provides Windows, ASP.NET, and MS SQL hosting services
+                  solutions.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/WebServices/WebHostings/FreeASPHosting/FreeASPHosting_01.png"
+                    alt="FreeASPHosting">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">AppHarbor</div>
+                <div class="tooltip-2">
+                  AppHarbor is a cloud web hosting platform for .NET. Applications can be deployed to AppHarbor using
+                  Git, Subversion or TFS. A large number of services (relational and no-sql databases) are offered as
+                  add-ons.
+                </div>
+                <div class="card-icon">
+                  <img src="./assets/img/images/Skills/WebServices/WebHostings/AppHarbor/AppHarbor_2466.png"
+                    alt="AppHarbor">
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="tools-list">
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Ajax</div>
+                <div class="card-icon">
+                  <img src="./assets/images/ajax.png" alt="Ajax logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Gulp</div>
+                <div class="card-icon">
+                  <img src="./assets/images/gulp.png" alt="Gulp logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Webpack</div>
+                <div class="card-icon">
+                  <img src="./assets/images/webpack.png" alt="Webpack logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Git</div>
+                <div class="card-icon">
+                  <img src="./assets/images/git.png" alt="Git logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Npm</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/npm.png" alt="Npm logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Command Line</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/command.png" alt="Command Line logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">VS Code</div>
+                <div class="card-icon">
+                  <img src="./assets/images/vs-code.png" alt="VS Code logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Trello</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/trello.png" alt="Trello logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">ClickUp</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/clickup.png" alt="ClickUp logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Slack</div>
+                <div class="card-icon">
+                  <img src="./assets/images/slack.png" alt="Slack logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Photoshop</div>
+                <div class="card-icon">
+                  <img src="./assets/images/photoshop.png" alt="Photoshop logo">
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Adobe XD</div>
+                <div class="card-icon">
+                  <img src="./assets/images/adobe-xd.png" alt="Adobe XD logo">
+                </div>
+              </div>
+            </li>
+          </ul>
+
+
+        </div>
+      </section>
+
+      <!-- #PROJECTS -->
+      <!-- <section class="project" id="portfolio">
+        <ul class="project-list">
+          <li>
+            <div class="project-content section-content">
+              <p class="section-subtitle">My Works</p>
+              <h2 class="h3 section-title">See My Works Which Will Amaze You!</h2>
+              <p class="section-text">
+                I develop the best quality website that serves for the long-term. Well-documented, clean, easy and
+                elegant interface
+                helps any non-technical clients.
+              </p>
+            </div>
+          </li>
+          <li>
+            <a href="#" class="project-card">
+              <figure class="card-banner">
+                <img src="./assets/images/project-1.png" class="w-100" alt="A macintosh on a yellow background.">
+              </figure>
+              <div class="card-content">
+                <h3 class="h4 card-title">Lorem Ipsum Dolor 01</h3>
+                <time class="publish-date" datetime="2022-04">April 2022</time>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="project-card">
+              <figure class="card-banner">
+                <img src="./assets/images/project-2.png" class="w-100" alt="On a Blue background, a Wacom and a mouse.">
+              </figure>
+              <div class="card-content">
+                <h3 class="h4 card-title">Lorem Ipsum Dolor 02</h3>
+                <time class="publish-date" datetime="2022-04">April 2022</time>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="project-card">
+              <figure class="card-banner">
+                <img src="./assets/images/project-3.png" class="w-100"
+                  alt="A Cassette tape on a mellow apricot background.">
+              </figure>
+              <div class="card-content">
+                <h3 class="h4 card-title">Lorem Ipsum Dolor 03</h3>
+                <time class="publish-date" datetime="2022-04">April 2022</time>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="project-card">
+              <figure class="card-banner">
+                <img src="./assets/images/project-4.png" class="w-100"
+                  alt="Blue digital watch on a dark liver background.">
+              </figure>
+              <div class="card-content">
+                <h3 class="h4 card-title">Lorem Ipsum Dolor 04</h3>
+                <time class="publish-date" datetime="2022-04">April 2022</time>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="project-card">
+              <figure class="card-banner">
+                <img src="./assets/images/project-5.png" class="w-100"
+                  alt="On a dark liver background, Airport luggage car carrying a luggage.">
+              </figure>
+              <div class="card-content">
+                <h3 class="h4 card-title">Lorem Ipsum Dolor 05</h3>
+                <time class="publish-date" datetime="2022-04">April 2022</time>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="project-card">
+              <figure class="card-banner">
+                <img src="./assets/images/project-6.png" class="w-100"
+                  alt="On a yellow background, a digital watch and a glass.">
+              </figure>
+              <div class="card-content">
+                <h3 class="h4 card-title">Lorem Ipsum Dolor 06</h3>
+                <time class="publish-date" datetime="2022-04">April 2022</time>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="project-card">
+              <figure class="card-banner">
+                <img src="./assets/images/project-7.png" class="w-100"
+                  alt="A fujifilm instant camera on a dark electric blue background.">
+              </figure>
+              <div class="card-content">
+                <h3 class="h4 card-title">Lorem Ipsum Dolor 07</h3>
+                <time class="publish-date" datetime="2022-04">April 2022</time>
+              </div>
+            </a>
+          </li>
+          <li>
+            <button class="load-more">Load more work</button>
+          </li>
+        </ul>
+      </section>
+ -->
+
+
+
+
+      <style>
+        :root {
+          ----main-color: #00a78e;
+          --main-color: var(--raw-seinna);
+          --shadow-black-100: 0 5px 15px rgba(0, 0, 0, 0.2);
+          --black-900: #000;
+          --black-400: #646f87;
+          --black-100: #f7f7f7;
+          --white: #fff;
+          --black-alpha-100: rgba(0, 0, 0, .05);
+        }
+
+        .row {
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        /*===== portfolio =====*/
+        .portfolio {
+          margin-top: 60px;
+        }
+
+        .portfolio .portfolio-filter {
+          display: flex;
+          flex-wrap: wrap;
+
+          padding: 20px;
+          margin: auto;
+          max-width: 100%;
+          --text-align: center;
+          --align-items: center;
+        }
+
+        .portfolio .portfolio-filter button {
+          text-transform: uppercase;
+          --margin-top: -20px;
+          outline: none;
+          border: 1px solid;
+          border-color: var(--main-color);
+          --border-color: black;
+          padding: 8px;
+          font-weight: 600;
+          border-radius: 5px;
+          background-color: var(--white);
+          margin-right: 20px;
+          color: var(--main-color);
+          --margin-bottom: 20px;
+          transition: all 0.3s ease;
+        }
+
+        .portfolio .portfolio-filter button:last-child {
+          margin-right: 0;
+        }
+
+        .portfolio .portfolio-filter button:hover,
+        .portfolio .portfolio-filter button.active {
+          color: var(--white);
+          --color: var(--black);
+          background-color: var(--main-color);
+        }
+
+        .portfolio .portfolio-item {
+          --flex: 0 0 33.33%;
+          flex: 0 0 50%;
+          --max-width: 33.33%;
+          max-width: 50%;
+          padding: 20px;
+          display: flex;
+          flex-wrap: wrap;
+        }
+
+        .portfolio .portfolio-item.hide {
+          display: none;
+        }
+
+        .portfolio-item.hide {
+          display: none;
+        }
+
+        .portfolio .portfolio-item.show {
+          display: block;
+          animation: showItem 0.5s ease;
+        }
+
+        @keyframes showItem {
+          0% {
+            transform: scale(0.8);
+            opacity: 0;
+          }
+
+          100% {
+            transform: scale(1);
+            opacity: 1;
+          }
+        }
+
+        .portfolio .portfolio-item-inner {
+          width: 100%;
+          overflow: hidden;
+          border-radius: 10px;
+          box-shadow: var(--shadow-black-100);
+          cursor: pointer;
+          position: relative;
+        }
+
+        .portfolio .portfolio-item-inner .portfolio-img img {
+          width: 100%;
+          display: block;
+        }
+
+        .portfolio .portfolio-item .portfolio-info {
+          position: absolute;
+          left: 0;
+          top: 0;
+          background-color: rgba(0, 0, 0, 0.8);
+          z-index: 1;
+          height: 100%;
+          width: 100%;
+          padding: 30px;
+          opacity: 0;
+          transition: all 0.3s ease;
+        }
+
+        .portfolio .portfolio-item:hover .portfolio-info {
+          opacity: 1;
+        }
+
+        .portfolio .portfolio-item .portfolio-info h4 {
+          font-size: 18px;
+          font-weight: 700;
+          color: var(--main-color);
+          text-transform: capitalize;
+          transform: translateX(-20px);
+          transition: all 0.3s ease;
+          opacity: 0;
+        }
+
+        .portfolio .portfolio-item:hover .portfolio-info h4 {
+          transform: translateX(0px);
+          opacity: 1;
+        }
+
+        .portfolio .portfolio-item .portfolio-info .icon {
+          height: 40px;
+          width: 40px;
+          color: var(--white);
+          --color: var(--black);
+          background-color: var(--main-color);
+          text-align: center;
+          border-radius: 50%;
+          position: absolute;
+          right: 30px;
+          bottom: 30px;
+          transform: translateX(20px);
+          transition: all 0.3s ease;
+          opacity: 0;
+        }
+
+        .portfolio .portfolio-item:hover .portfolio-info .icon {
+          transform: translateX(0px);
+          opacity: 1;
+        }
+
+        .portfolio .portfolio-item .portfolio-info .icon .fa {
+          line-height: 40px;
+        }
+
+        /*===== Lightbox =====*/
+        .lightbox {
+          position: fixed;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.6);
+          z-index: 1000;
+          display: none;
+          justify-content: center;
+          align-items: center;
+          cursor: zoom-out;
+          padding: 30px;
+        }
+
+        .lightbox.open {
+          display: flex;
+        }
+
+        .lightbox .lightbox-content img {
+          height: auto;
+          width: auto;
+          max-width: 100%;
+          --max-height: 500px;
+          max-height: 520px;
+          cursor: pointer;
+          display: block;
+          padding: 40px 0 30px;
+        }
+
+        .lightbox .lightbox-content figure img {
+          padding: 0;
+        }
+
+        .lightbox .lightbox-content {
+          position: relative;
+        }
+
+        .lightbox.open .lightbox-content {
+          animation: lightboxImage .5s ease;
+        }
+
+        .lightbox .about {
+          height: 420px;
+          width: 930px
+        }
+
+        .lightbox .btn {
+          padding: 7px 10px;
+          font-weight: var(--fw-500);
+          font-size: 14px;
+        }
+
+        .lightbox figure img {
+          --padding: 0 10px 0 0px;
+          padding: 0px important !;
+          --margin-top: -85px;
+          --max-height: 100%;
+        }
+
+
+        @keyframes lightboxImage {
+          0% {
+            transform: scale(0.8);
+          }
+
+          100% {
+            transform: scale(1);
+          }
+        }
+
+        .lightbox .lightbox-content .lightbox-close {
+          position: absolute;
+          height: 40px;
+          width: 40px;
+          top: 0;
+          right: 0;
+          font-size: 32px;
+          color: var(--white);
+          line-height: 40px;
+          text-align: right;
+        }
+
+        .lightbox .lightbox-content .lightbox-caption {
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          font-size: 16px;
+          color: var(--white);
+          font-weight: 400;
+          z-index: -1;
+        }
+
+        .lightbox .lightbox-controls .prev-item,
+        .lightbox .lightbox-controls .next-item {
+          position: absolute;
+          height: 40px;
+          width: 40px;
+          background-color: var(--white);
+          border-radius: 50%;
+          text-align: center;
+          cursor: pointer;
+          top: 50%;
+          margin-top: -20px;
+          z-index: 110;
+          transition: all 0.3s ease;
+        }
+
+        .lightbox .lightbox-controls .next-item:hover,
+        .lightbox .lightbox-controls .prev-item:hover {
+          transform: scale(1.1);
+        }
+
+        .lightbox .lightbox-controls .next-item:active,
+        .lightbox .lightbox-controls .prev-item:active {
+          transform: scale(1);
+        }
+
+        .lightbox .lightbox-controls .prev-item {
+          --left: 30px;
+          left: 20px;
+        }
+
+        .lightbox .lightbox-controls .next-item {
+          --right: 30px;
+          right: 20px;
+        }
+
+        .lightbox .lightbox-controls .next-item .fa,
+        .lightbox .lightbox-controls .prev-item .fa {
+          font-size: 32px;
+          line-height: 40px;
+        }
+
+
+        /*Responsive*/
+
+        @media(max-width: 991px) {
+          .portfolio .portfolio-item {
+            flex: 0 0 50%;
+            max-width: 50%;
+          }
+        }
+
+        @media(max-width: 767px) {
+          .portfolio .portfolio-item {
+            flex: 0 0 100%;
+            max-width: 100%;
+          }
+        }
+      </style>
+
+      <!--===== Portfolio Section Start =====-->
+      <section class="portfolio section-padding" id="portfolio">
+
+        <div class="project-content section-content">
+          <p class="section-subtitle">Projects</p>
+          <h2 class="h3 section-title">See My Works Which Will Amaze You!</h2>
+          <p class="section-text">
+            Showcasing complete functional projects demonstrates what I can bring to your project.
+            I built these projects from the ground up to demonstrate skills <strong>Front-End, Back-End,
+              Security,</strong> and <strong>Database Development.</strong>
+            All these projects are full stack web projects that are built so that you can demo them easily.
+            <strong style="color: var(--raw-seinna);">Contact me to get a complete code walkthrough.</strong>
+          </p>
+        </div>
+
+        <div class="container_">
+          <div class="row">
+            <div class="portfolio-filter">
+              <button type="button" data-filter="all" class="active">All</button>
+              <button type="button" data-filter="AspNet-WebApi-React">Asp.Net WebApi + React</button>
+              <button type="button" data-filter="AspNet-Mvc">Asp.Net Mvc</button>
+              <button type="button" data-filter="React-Js">React Js</button>
+            </div>
+          </div>
+
+          <div class="row">
+            <!--===== portfolio-item all start =====-->
+            <div class="portfolio-item portfolio-item-011 portfolio-item-all" data-category="AspNet-WebApi-React"
+              data-category-all="all-main">
+              <div class="portfolio-item-inner">
+                <div class="portfolio-img">
+                  <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view01.png" alt="">
+                </div>
+                <div class="portfolio-info">
+                  <h4>Activities Hub</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--===== portfolio-item all end =====-->
+            <!--===== portfolio-item all start =====-->
+            <div class="portfolio-item portfolio-item-022 portfolio-item-all" data-category="AspNet-Mvc"
+              data-category-all="all-main">
+              <div class="portfolio-item-inner">
+                <div class="portfolio-img">
+                  <img src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/view/view01.png" alt="">
+                </div>
+                <div class="portfolio-info">
+                  <h4>Awesome Contact</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--===== portfolio-item all end =====-->
+            <!--===== portfolio-item all start =====-->
+            <div class="portfolio-item portfolio-item-033 portfolio-item-all" data-category="React-Js"
+              data-category-all="all-main">
+              <div class="portfolio-item-inner">
+                <div class="portfolio-img">
+                  <img src="assets/img/images/Projects/react/reactjs/movieLand/view/view01.png" alt="">
+                </div>
+                <div class="portfolio-info">
+                  <h4>Movie Land</h4>
+                  <div class="icon">
+                    <i class="fa fa-search"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--===== portfolio-item all end =====-->
+          </div>
+
+        </div>
+      </section>
+      <!--===== Portfolio Section End =====-->
+      <script type="text/javascript">
+        /*===== Portfolio Item Filter =====*/
+        const FilterContainer = document.querySelector(".portfolio-filter");
+        const filterBtns = FilterContainer.children;
+        const totalFilterBtn = filterBtns.length;
+        /*===== Portfolio Item Filter =====*/
+      </script>
+      <script type="text/javascript">
+        /*===== Portfolio Item Ash =====*/
+        const PortfolioItemsAll = document.querySelectorAll(".portfolio-item-all");
+        /*===== Portfolio Item Ash =====*/
+      </script>
+
+
+      <!--===== Lightbox Start =====-->
+      <!-- <div class="lightbox">
+        <div class="lightbox-content">
+          <div class="lightbox-close">&times;</div>
+          <img src="" onclick="nextItem()" class="lightbox-img" alt="">
+          <div class="lightbox-caption">
+            <div class="caption-text"></div>
+            <div class="caption-counter"></div>
+          </div>
+        </div>
+        <div class="lightbox-controls">
+          <div class="prev-item" onclick="prevItem()"><i class="fa fa-angle-left"></i></div>
+          <div class="next-item" onclick="nextItem()"><i class="fa fa-angle-right"></i></div>
+        </div>
+      </div> -->
+      <!--===== Lightbox End =====-->
+      <script type="text/javascript">
+        /*===== Portfolio Item =====*/
+        // PortfolioItems = document.querySelectorAll(".portfolio-item"),
+        //   totalportfolioItem = PortfolioItems.length;
+        // for (let i = 0; i < totalFilterBtn; i++) {
+        //   filterBtns[i].addEventListener("click", function () {
+        //     FilterContainer.querySelector(".active").classList.remove("active");
+        //     this.classList.add("active");
+        //     const filterValue = this.getAttribute("data-filter")
+        //     for (let k = 0; k < totalportfolioItem; k++) {
+        //       if (filterValue === PortfolioItems[k].getAttribute("data-category")) {
+        //         PortfolioItems[k].classList.remove("hide");
+        //         PortfolioItems[k].classList.add("show");
+        //       }
+        //       else {
+        //         PortfolioItems[k].classList.remove("show");
+        //         PortfolioItems[k].classList.add("hide");
+        //       }
+        //       if (filterValue === "all") {
+        //         PortfolioItems[k].classList.remove("hide");
+        //         PortfolioItems[k].classList.add("show");
+        //       }
+        //     }
+        //   })
+        // }
+        /*===== Portfolio Item =====*/
+        /*===== Lightbox =====*/
+        // let itemIndex = 0;
+        // for (let i = 0; i < totalportfolioItem; i++) {
+        //   PortfolioItems[i].addEventListener("click", function () {
+        //     itemIndex01 = i;
+        //     changeItem();
+        //     toggleLightbox();
+        //   });
+        // }
+        // function nextItem() {
+        //   if (itemIndex == totalportfolioItem - 1) {
+        //     itemIndex = 0;
+        //   }
+        //   else {
+        //     itemIndex++
+        //   }
+        //   changeItem();
+        // }
+        // function prevItem() {
+        //   if (itemIndex == 0) {
+        //     itemIndex = totalportfolioItem - 1;
+        //   }
+        //   else {
+        //     itemIndex--
+        //   }
+        //   changeItem();
+        // }
+        /*===== Lightbox =====*/
+        // const lightbox = document.querySelector(".lightbox");
+        // lightbox.addEventListener("click", function (event) { // close lightbox
+        //   if (event.target === lightbox.querySelector(".lightbox-close") || event.target === lightbox) {
+        //     toggleLightbox()
+        //   }
+        // })
+        // function toggleLightbox() {
+        //   lightbox.classList.toggle("open");
+        // }
+        // function changeItem() {
+        //   lightbox.querySelector(".lightbox-img").src = PortfolioItems[itemIndex].querySelector(".portfolio-img img").getAttribute("src");
+        //   lightbox.querySelector(".caption-text").innerHTML = PortfolioItems[itemIndex].querySelector("h4").innerHTML;
+        //   lightbox.querySelector(".caption-counter").innerHTML = (itemIndex + 1) + " of " + PortfolioItems.length;
+        // }
+        /*===== Lightbox =====*/
+      </script>
+
+
+      <!--===== Lightbox Start 011 =====-->
+      <div class="lightbox lightbox-011">
+        <div class="lightbox-content">
+          <div class="lightbox-close">&times;</div>
+          <!-- <img src="" onclick="nextItem01()" class="lightbox-img" alt=""> -->
+          <div class="lightbox-img">
+            <section class="about" id="about" style="background-color: #fff;">
+              <figure class="about-banner">
+                <img src="./assets/img/images/Projects/aspNetWebApi/react/activitiesHub/logo/Logo_07.png" class="w-100">
+              </figure>
+              <div class="about-content section-content">
+                <p class="section-subtitle" style="font-size: 13px; font-weight: bolder; color: #2191AE;">Activities Hub
+                </p>
+                <h2 class="h3 section-title"
+                  style="text-transform: uppercase; font-size: 22px; margin: 10px 0 15px 0; text-align: center; color: #2191AE;">
+                  Activities Hub</h2>
+                <p class="section-text" style="font-size: 14px; margin-bottom: 20px;">
+                  Activities Hub is an online social media/ networking platform, allows signed-up users, to find friends
+                  to chat with, share
+                  photos, and follow. Activities Hub enables you to view, create, update and manage your social
+                  activities/ event data.
+                </p>
+                <p class="section-text" style="font-size: 14px; margin-bottom: 20px;">
+                  A role based security system was implemented to create permission based roles.
+                  The role of Admin, Super User and User restrict what the user can see and do.
+                </p>
+                <p class="section-text" style="font-size: 14px; margin-bottom: 20px;">
+                  The system was built with <strong>ASP.NET WebAPI</strong> and <strong>React JS</strong>.
+                  The <strong>Fron-End</strong> uttilizes<strong> HTML, CSS,</strong> and, <strong>JavaScript</strong>.
+                  The <strong>Back-End</strong> was developet with <strong>C#,</strong> and <strong>Entity
+                    Framework</strong>.
+                  The <strong>Database</strong> wase built with <strong>SQL Server</strong> and hosted on
+                  <strong>Fly.io</strong> using <strong>Git/ GitHub.</strong>
+                  <a href="https://ashrafqasem01.fly.dev" target="_blank" style="font-weight: bolder; color: #2191AE;">
+                    Please visit the site and try it out. &raquo;</a>
+                </p>
+                <div class="btn-group">
+                  <a href="https://ashrafqasem01.fly.dev" class="btn btn-secondary" target="_blank"
+                    style="background-color: #2191AE; border-color: #2191AE;">Visit Website</a>
+                  <!-- <button class="btn btn-secondary">Website Demo</button> -->
+                  <!--===== portfolio-item start =====-->
+                  <div class="portfolio-item portfolio-item-01" data-category="AspNet-WebApi-React_">
+                    <div class="portfolio-item-inner">
+                      <div class="portfolio-img">
+                        <!-- <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view01.png" alt=""> -->
+                        <button class="btn btn-secondary"
+                          style="background-color: #2191AE; border-color: #2191AE;">Website Demo
+                          <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view01.png"
+                            alt="Website Demo" style="display: none;">
+                        </button>
+                      </div>
+                      <div class="portfolio-info" style="display: none;">
+                        <h4>Activities Hub</h4>
+                        <div class="icon">
+                          <i class="fa fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--===== portfolio-item end =====-->
+                  <!-- <button class="btn btn-secondary" style="background-color: #2191AE; border-color: #2191AE;">Code
+                    Demo</button> -->
+                  <!--===== portfolio-item code start =====-->
+                  <div class="portfolio-item portfolio-item-01_2" data-category="AspNet-WebApi-React_">
+                    <div class="portfolio-item-inner">
+                      <div class="portfolio-img">
+                        <!-- <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/code/code01.png" alt=""> -->
+                        <button class="btn btn-secondary" style="background-color: #2191AE; border-color: #2191AE;">Code
+                          Demo
+                          <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/code/code01.png"
+                            alt="Code Demo" style="display: none;">
+                        </button>
+                      </div>
+                      <div class="portfolio-info" style="display: none;">
+                        <h4>Activities Hub</h4>
+                        <div class="icon">
+                          <i class="fa fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--===== portfolio-item code end =====-->
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- <div class="lightbox-caption">
+            <div class="caption-text"></div>
+            <div class="caption-counter"></div>
+          </div> -->
+        </div>
+        <!-- <div class="lightbox-controls">
+          <div class="prev-item" onclick="prevItem011()"><i class="fa fa-angle-left"></i></div>
+          <div class="next-item" onclick="nextItem011()"><i class="fa fa-angle-right"></i></div>
+        </div> -->
+      </div>
+      <!--===== Lightbox End 011 =====-->
+      <script type="text/javascript">
+        /*===== Portfolio Item 011 =====*/
+        const PortfolioItems011 = document.querySelectorAll(".portfolio-item-011");
+        for (let i = 0; i < totalFilterBtn; i++) {
+          filterBtns[i].addEventListener("click", function () {
+            FilterContainer.querySelector(".active").classList.remove("active");
+            this.classList.add("active");
+            const filterValue = this.getAttribute("data-filter");
+            for (let k = 0; k < PortfolioItems011.length; k++) {
+              if (filterValue === PortfolioItems011[k].getAttribute("data-category")) {
+                PortfolioItems011[k].classList.remove("hide");
+                PortfolioItems011[k].classList.add("show");
+              }
+              else {
+                PortfolioItems011[k].classList.remove("show");
+                PortfolioItems011[k].classList.add("hide");
+              }
+              // if (filterValue === "all" ) {
+              //   PortfolioItems011[k].classList.remove("hide");
+              //   PortfolioItems011[k].classList.add("show");
+              // }
+            }
+            for (let k = 0; k < PortfolioItemsAll.length; k++) {
+              if (filterValue === "all" && PortfolioItemsAll[k].getAttribute("data-category-all") === "all-main") {
+                PortfolioItemsAll[k].classList.remove("hide");
+                PortfolioItemsAll[k].classList.add("show");
+              }
+            }
+          })
+        }
+        /*===== Portfolio Item 011 =====*/
+        /*===== Lightbox =====*/
+        let itemIndex011 = 0;
+        for (let i = 0; i < PortfolioItems011.length; i++) {
+          PortfolioItems011[i].addEventListener("click", function () {
+            itemIndex011 = i;
+            //changeItem011();
+            toggleLightbox011();
+          });
+        }
+        // function nextItem011() {
+        //   if (itemIndex011 == PortfolioItems011.length - 1) {
+        //     itemIndex011 = 0;
+        //   }
+        //   else {
+        //     itemIndex011++
+        //   }
+        //   changeItem011();
+        // }
+        // function prevItem011() {
+        //   if (itemIndex011 == 0) {
+        //     itemIndex011 = PortfolioItems011.length - 1;
+        //   }
+        //   else {
+        //     itemIndex011--
+        //   }
+        //   changeItem011();
+        // }
+        /*===== lightbox 011 =====*/
+        const lightbox011 = document.querySelector(".lightbox-011");
+        lightbox011.addEventListener("click", function (event) { // close lightbox
+          if (event.target === lightbox011.querySelector(".lightbox-close") || event.target === lightbox011) {
+            toggleLightbox011()
+          }
+        })
+        function toggleLightbox011() {
+          lightbox011.classList.toggle("open");
+        }
+        // function changeItem11() {
+        //   lightbox011.querySelector(".lightbox-img").src = PortfolioItems011[itemIndex011].querySelector(".portfolio-img img").getAttribute("src");
+        //   lightbox011.querySelector(".caption-text").innerHTML = PortfolioItems011[itemIndex011].querySelector("h4").innerHTML;
+        //   lightbox011.querySelector(".caption-counter").innerHTML = (itemIndex011 + 1) + " of " + PortfolioItems011.length;
+        // }
+        /*===== lightbox 011 =====*/
+      </script>
+
+      <!--===== Lightbox Start 01 =====-->
+      <div class="lightbox lightbox-01">
+        <div class="lightbox-content">
+          <div class="lightbox-close">&times;</div>
+          <img src="" onclick="nextItem01()" class="lightbox-img" alt="">
+          <div class="lightbox-caption">
+            <div class="caption-text"></div>
+            <div class="caption-counter"></div>
+          </div>
+        </div>
+        <div class="lightbox-controls">
+          <div class="prev-item" onclick="prevItem01()"><i class="fa fa-angle-left"></i></div>
+          <div class="next-item" onclick="nextItem01()"><i class="fa fa-angle-right"></i></div>
+        </div>
+      </div>
+      <!--===== Lightbox End 01 =====-->
+      <div class="row">
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item portfolio-item-01_ hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view01.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item portfolio-item-01 hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view02.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item portfolio-item-01 hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view03.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item portfolio-item-01 hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view04.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item portfolio-item-01 hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view05.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item portfolio-item-01 hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view06.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item portfolio-item-01 hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view07.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item portfolio-item-01 hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view08.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item portfolio-item-01 hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view09.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item portfolio-item-01 hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view10.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item portfolio-item-01 hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view11.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item portfolio-item-01 hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view12.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+      </div>
+      <script type="text/javascript">
+        /*===== Portfolio Item 01 =====*/
+        const PortfolioItems01 = document.querySelectorAll(".portfolio-item-01");
+        // for (let i = 0; i < totalFilterBtn; i++) {
+        //   filterBtns[i].addEventListener("click", function () {
+        //     FilterContainer.querySelector(".active").classList.remove("active");
+        //     this.classList.add("active");
+        //     const filterValue = this.getAttribute("data-filter");
+        //     for (let k = 0; k < PortfolioItems01.length; k++) {
+        //       if (filterValue === PortfolioItems01[k].getAttribute("data-category")) {
+        //         PortfolioItems01[k].classList.remove("hide");
+        //         PortfolioItems01[k].classList.add("show");
+        //       }
+        //       else {
+        //         PortfolioItems01[k].classList.remove("show");
+        //         PortfolioItems01[k].classList.add("hide");
+        //       }
+        //       // if (filterValue === "all" ) {
+        //       //   PortfolioItems01[k].classList.remove("hide");
+        //       //   PortfolioItems01[k].classList.add("show");
+        //       // }
+        //     }
+        //     for (let k = 0; k < PortfolioItemsAll.length; k++) {
+        //       if (filterValue === "all" && PortfolioItemsAll[k].getAttribute("data-category-all") === "all-main") {
+        //         PortfolioItemsAll[k].classList.remove("hide");
+        //         PortfolioItemsAll[k].classList.add("show");
+        //       }
+        //     }
+        //   })
+        // }
+        /*===== Portfolio Item 01 =====*/
+        /*===== Lightbox 01 =====*/
+        let itemIndex01 = 0;
+        for (let i = 0; i < PortfolioItems01.length; i++) {
+          PortfolioItems01[i].addEventListener("click", function () {
+            itemIndex01 = i;
+            changeItem01();
+            toggleLightbox01();
+          });
+        }
+        function nextItem01() {
+          if (itemIndex01 == PortfolioItems01.length - 1) {
+            itemIndex01 = 0;
+          }
+          else {
+            itemIndex01++
+          }
+          changeItem01();
+        }
+        function prevItem01() {
+          if (itemIndex01 == 0) {
+            itemIndex01 = PortfolioItems01.length - 1;
+          }
+          else {
+            itemIndex01--
+          }
+          changeItem01();
+        }
+        const lightbox01 = document.querySelector(".lightbox-01");
+        lightbox01.addEventListener("click", function (event) { // close lightbox
+          if (event.target === lightbox01.querySelector(".lightbox-close") || event.target === lightbox01) {
+            toggleLightbox01()
+          }
+        })
+        function toggleLightbox01() {
+          lightbox01.classList.toggle("open");
+        }
+        function changeItem01() {
+          lightbox01.querySelector(".lightbox-img").src = PortfolioItems01[itemIndex01].querySelector(".portfolio-img img").getAttribute("src");
+          lightbox01.querySelector(".caption-text").innerHTML = PortfolioItems01[itemIndex01].querySelector("h4").innerHTML;
+          lightbox01.querySelector(".caption-counter").innerHTML = (itemIndex01 + 1) + " of " + PortfolioItems01.length;
+        }
+        /*===== Lightbox 01 =====*/
+      </script>
+
+      <!--===== Lightbox Start Code 01-2 =====-->
+      <div class="lightbox lightbox-01-2">
+        <div class="lightbox-content">
+          <div class="lightbox-close">&times;</div>
+          <img src="" onclick="nextItem01_2()" class="lightbox-img" alt="">
+          <div class="lightbox-caption">
+            <div class="caption-text"></div>
+            <div class="caption-counter"></div>
+          </div>
+        </div>
+        <div class="lightbox-controls">
+          <div class="prev-item" onclick="prevItem01_2()"><i class="fa fa-angle-left"></i></div>
+          <div class="next-item" onclick="nextItem01_2()"><i class="fa fa-angle-right"></i></div>
+        </div>
+      </div>
+      <!--===== Lightbox End Code 01-2 =====-->
+      <div class="row">
+        <!--===== portfolio-item code start =====-->
+        <div class="portfolio-item portfolio-item-01_2_ hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/code/code01.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item code end =====-->
+        <!--===== portfolio-item code start =====-->
+        <div class="portfolio-item portfolio-item-01_2 hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/code/code02.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item code end =====-->
+        <!--===== portfolio-item code start =====-->
+        <div class="portfolio-item portfolio-item-01_2_ hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/code/code03.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item code end =====-->
+        <!--===== portfolio-item code start =====-->
+        <div class="portfolio-item portfolio-item-01_2_ hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/code/code04.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item code end =====-->
+        <!--===== portfolio-item code start =====-->
+        <div class="portfolio-item portfolio-item-01_2_ hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/code/code05.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item code end =====-->
+        <!--===== portfolio-item code start =====-->
+        <div class="portfolio-item portfolio-item-01_2_ hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/code/code06.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item code end =====-->
+        <!--===== portfolio-item code start =====-->
+        <div class="portfolio-item portfolio-item-01_2_ hide" data-category="AspNet-WebApi-React_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/code/code07.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Activities Hub</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item Code end =====-->
+      </div>
+      <script type="text/javascript">
+        /*===== Portfolio Item Code 01_2 =====*/
+        const PortfolioItems01_2 = document.querySelectorAll(".portfolio-item-01_2");
+        /*===== Portfolio Item Code 01_2 =====*/
+        /*===== Lightbox 01-2 =====*/
+        let itemIndex01_2 = 0;
+        for (let i = 0; i < PortfolioItems01_2.length; i++) {
+          PortfolioItems01_2[i].addEventListener("click", function () {
+            itemIndex01_2 = i;
+            changeItem01_2();
+            toggleLightbox01_2();
+          });
+        }
+        function nextItem01_2() {
+          if (itemIndex01_2 == PortfolioItems01_2.length - 1) {
+            itemIndex01_2 = 0;
+          }
+          else {
+            itemIndex01_2++
+          }
+          changeItem01_2();
+        }
+        function prevItem01_2() {
+          if (itemIndex01_2 == 0) {
+            itemIndex01_2 = PortfolioItems01_2.length - 1;
+          }
+          else {
+            itemIndex01_2--
+          }
+          changeItem01_2();
+        }
+        const lightbox01_2 = document.querySelector(".lightbox-01-2");
+        lightbox01_2.addEventListener("click", function (event) { // close lightbox
+          if (event.target === lightbox01_2.querySelector(".lightbox-close") || event.target === lightbox01_2) {
+            toggleLightbox01_2()
+          }
+        })
+        function toggleLightbox01_2() {
+          lightbox01_2.classList.toggle("open");
+        }
+        function changeItem01_2() {
+          lightbox01_2.querySelector(".lightbox-img").src = PortfolioItems01_2[itemIndex01_2].querySelector(".portfolio-img img").getAttribute("src");
+          lightbox01_2.querySelector(".caption-text").innerHTML = PortfolioItems01_2[itemIndex01_2].querySelector("h4").innerHTML;
+          lightbox01_2.querySelector(".caption-counter").innerHTML = (itemIndex01_2 + 1) + " of " + PortfolioItems01_2.length;
+        }
+        /*===== Lightbox 01-2 =====*/
+      </script>
+
+
+      <!--===== Lightbox Start 022 =====-->
+      <div class="lightbox lightbox-022">
+        <div class="lightbox-content">
+          <div class="lightbox-close">&times;</div>
+          <!-- <img src="" onclick="nextItem01()" class="lightbox-img" alt=""> -->
+          <div class="lightbox-img">
+            <section class="about" id="about" style="background-color: #fff;">
+              <figure class="about-banner">
+                <img src="./assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/logo/Logo_07.png" alt=""
+                  class="w-100">
+              </figure>
+              <div class="about-content section-content">
+                <p class="section-subtitle" style="font-size: 13px;">Awesome Contact</p>
+                <h2 class="h3 section-title"
+                  style="text-transform: uppercase; font-size: 22px; margin: 10px 0 15px 0; text-align: center; color: #E38445;">
+                  Awesome
+                  Contact</h2>
+                <p class="section-text" style="font-size: 14px; margin-bottom: 20px;">
+                  Awesome Contact is a software program that enables users to easily store and find contact information,
+                  such as names, addresses, and telephone numbers. They are contact-centric databases that provide a
+                  fully integrated approach to tracking all information.
+                </p>
+                <p class="section-text" style="font-size: 14px; margin-bottom: 20px;">
+                  A role based security system was implemented to create permission based roles.
+                  The role of Admin, Super User and User restrict what the user can see and do.
+                </p>
+                <p class="section-text" style="font-size: 14px; margin-bottom: 20px;">
+                  The system was built with <strong>ASP.NET Core MVC</strong> and <strong>C#</strong>.
+                  The <strong>Fron-End</strong> was developet with <strong>HTML, CSS, Bootstrap, DataTables,
+                    JavaScript,</strong> and <strong>JQuery</strong>.
+                  The <strong>Back-End</strong> uttilizes <strong>MVC, C#,</strong> and <strong>Entity
+                    Framework</strong>.
+                  The <strong>Database</strong> wase built with <strong>SQL Server</strong> and hosted on
+                  <strong>AppHarbor</strong> using <strong>Git/ GitHub.</strong>
+                  <a href="https://ashrafqasem.bsite.net" target="_blank" style="font-weight: bolder; color: #E38445;">
+                    Please visit the
+                    site and try it out. &raquo;</a>
+                </p>
+                <div class="btn-group">
+                  <a href="https://ashrafqasem.bsite.net" class="btn btn-secondary" target="_blank">Visit Website</a>
+                  <!-- <button class="btn btn-secondary">Website Demo</button> -->
+                  <!--===== portfolio-item start =====-->
+                  <div class="portfolio-item portfolio-item-02" data-category="AspNet-WebApi-React_">
+                    <div class="portfolio-item-inner">
+                      <div class="portfolio-img">
+                        <!-- <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view01.png" alt=""> -->
+                        <button class="btn btn-secondary">Website Demo
+                          <img src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/view/view01.png"
+                            alt="Website Demo" style="display: none;">
+                        </button>
+                      </div>
+                      <div class="portfolio-info" style="display: none;">
+                        <h4>Awesome Contact</h4>
+                        <div class="icon">
+                          <i class="fa fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--===== portfolio-item end =====-->
+                  <!-- <button class="btn btn-secondary">Code Demo</button> -->
+                  <!--===== portfolio-item Code start =====-->
+                  <div class="portfolio-item portfolio-item-02-2" data-category="AspNet-Mvc_">
+                    <div class="portfolio-item-inner">
+                      <div class="portfolio-img">
+                        <!-- <img src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/code/code01.png" alt=""> -->
+                        <button class="btn btn-secondary">Website Demo
+                          <img src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/code/code01.png"
+                            alt="Code Demo" style="display: none;">
+                        </button>
+                      </div>
+                      <div class="portfolio-info" style="display: none;">
+                        <h4>Awesome Contact</h4>
+                        <div class="icon">
+                          <i class="fa fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--===== portfolio-item Code end =====-->
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <!--===== Lightbox End 022 =====-->
+      <script type="text/javascript">
+        /*===== Portfolio Item 022 =====*/
+        const PortfolioItems022 = document.querySelectorAll(".portfolio-item-022");
+        for (let i = 0; i < totalFilterBtn; i++) {
+          filterBtns[i].addEventListener("click", function () {
+            FilterContainer.querySelector(".active").classList.remove("active");
+            this.classList.add("active");
+            const filterValue = this.getAttribute("data-filter");
+            for (let k = 0; k < PortfolioItems022.length; k++) {
+              if (filterValue === PortfolioItems022[k].getAttribute("data-category")) {
+                PortfolioItems022[k].classList.remove("hide");
+                PortfolioItems022[k].classList.add("show");
+              }
+              else {
+                PortfolioItems022[k].classList.remove("show");
+                PortfolioItems022[k].classList.add("hide");
+              }
+              // if (filterValue === "all" ) {
+              //   PortfolioItems022[k].classList.remove("hide");
+              //   PortfolioItems022[k].classList.add("show");
+              // }
+            }
+            for (let k = 0; k < PortfolioItemsAll.length; k++) {
+              if (filterValue === "all" && PortfolioItemsAll[k].getAttribute("data-category-all") === "all-main") {
+                PortfolioItemsAll[k].classList.remove("hide");
+                PortfolioItemsAll[k].classList.add("show");
+              }
+            }
+          })
+        }
+        /*===== Portfolio Item 022 =====*/
+        /*===== Lightbox 022 =====*/
+        let itemIndex022 = 0;
+        for (let i = 0; i < PortfolioItems022.length; i++) {
+          PortfolioItems022[i].addEventListener("click", function () {
+            itemIndex022 = i;
+            toggleLightbox022();
+          });
+        }
+        const lightbox022 = document.querySelector(".lightbox-022");
+        lightbox022.addEventListener("click", function (event) { // close lightbox
+          if (event.target === lightbox022.querySelector(".lightbox-close") || event.target === lightbox022) {
+            toggleLightbox022()
+          }
+        })
+        function toggleLightbox022() {
+          lightbox022.classList.toggle("open");
+        }
+        /*===== Lightbox 022 =====*/
+      </script>
+
+      <!--===== Lightbox Start 02 =====-->
+      <div class="lightbox lightbox-02">
+        <div class="lightbox-content">
+          <div class="lightbox-close">&times;</div>
+          <img src="" onclick="nextItem02()" class="lightbox-img" alt="">
+          <div class="lightbox-caption">
+            <div class="caption-text"></div>
+            <div class="caption-counter"></div>
+          </div>
+        </div>
+        <div class="lightbox-controls">
+          <div class="prev-item" onclick="prevItem02()"><i class="fa fa-angle-left"></i></div>
+          <div class="next-item" onclick="nextItem02()"><i class="fa fa-angle-right"></i></div>
+        </div>
+      </div>
+      <!--===== Lightbox End 02 =====-->
+      <div class="row">
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item portfolio-item-02_ hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/view/view01.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Awesome Contact</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item  portfolio-item-02 hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/view/view02.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Awesome Contact</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item  portfolio-item-02 hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/view/view03.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Awesome Contact</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item  portfolio-item-02 hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/view/view04.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Awesome Contact</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item  portfolio-item-02 hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/view/view05.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Awesome Contact</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+      </div>
+      <script type="text/javascript">
+        /*===== Portfolio Item 02 =====*/
+        const PortfolioItems02 = document.querySelectorAll(".portfolio-item-02");
+        /*===== Portfolio Item 02 =====*/
+        /*===== Lightbox 02 =====*/
+        let itemIndex02 = 0;
+        for (let i = 0; i < PortfolioItems02.length; i++) {
+          PortfolioItems02[i].addEventListener("click", function () {
+            itemIndex02 = i;
+            changeItem02();
+            toggleLightbox02();
+          });
+        }
+        function nextItem02() {
+          if (itemIndex02 == PortfolioItems02.length - 1) {
+            itemIndex02 = 0;
+          }
+          else {
+            itemIndex02++
+          }
+          changeItem02();
+        }
+        function prevItem02() {
+          if (itemIndex02 == 0) {
+            itemIndex02 = PortfolioItems02.length - 1;
+          }
+          else {
+            itemIndex02--
+          }
+          changeItem02();
+        }
+        const lightbox02 = document.querySelector(".lightbox-02");
+        lightbox02.addEventListener("click", function (event) { // close lightbox
+          if (event.target === lightbox02.querySelector(".lightbox-close") || event.target === lightbox02) {
+            toggleLightbox02()
+          }
+        })
+        function toggleLightbox02() {
+          lightbox02.classList.toggle("open");
+        }
+        function changeItem02() {
+          lightbox02.querySelector(".lightbox-img").src = PortfolioItems02[itemIndex02].querySelector(".portfolio-img img").getAttribute("src");
+          lightbox02.querySelector(".caption-text").innerHTML = PortfolioItems02[itemIndex02].querySelector("h4").innerHTML;
+          lightbox02.querySelector(".caption-counter").innerHTML = (itemIndex02 + 1) + " of " + PortfolioItems02.length;
+        }
+        /*===== Lightbox 02 =====*/
+      </script>
+
+      <!--===== Lightbox Start Code 02-2 =====-->
+      <div class="lightbox lightbox-02-2">
+        <div class="lightbox-content">
+          <div class="lightbox-close">&times;</div>
+          <img src="" onclick="nextItem02_2()" class="lightbox-img" alt="">
+          <div class="lightbox-caption">
+            <div class="caption-text"></div>
+            <div class="caption-counter"></div>
+          </div>
+        </div>
+        <div class="lightbox-controls">
+          <div class="prev-item" onclick="prevItem02_2()"><i class="fa fa-angle-left"></i></div>
+          <div class="next-item" onclick="nextItem02_2()"><i class="fa fa-angle-right"></i></div>
+        </div>
+      </div>
+      <!--===== Lightbox End Code 02-2 =====-->
+      <div class="row">
+        <!--===== portfolio-item Code start =====-->
+        <div class="portfolio-item portfolio-item-02-2_ hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/code/code01.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Awesome Contact</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item Code end =====-->
+        <!--===== portfolio-item Code start =====-->
+        <div class="portfolio-item portfolio-item-02-2 hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/code/code02.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Awesome Contact</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item Code end =====-->
+        <!--===== portfolio-item Code start =====-->
+        <div class="portfolio-item portfolio-item-02-2 hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/code/code03.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Awesome Contact</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item Code end =====-->
+        <!--===== portfolio-item Code start =====-->
+        <div class="portfolio-item portfolio-item-02-2 hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/code/code04.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Awesome Contact</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item Code end =====-->
+        <!--===== portfolio-item Code start =====-->
+        <div class="portfolio-item portfolio-item-02-2 hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/code/code05.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Awesome Contact</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item Code end =====-->
+        <!--===== portfolio-item Code start =====-->
+        <div class="portfolio-item portfolio-item-02-2 hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/code/code06.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Awesome Contact</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item Code end =====-->
+        <!--===== portfolio-item Code start =====-->
+        <div class="portfolio-item portfolio-item-02-2 hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/code/code07.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Awesome Contact</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item Code end =====-->
+      </div>
+      <script type="text/javascript">
+        /*===== Portfolio Item Code 02_2 =====*/
+        const PortfolioItems02_2 = document.querySelectorAll(".portfolio-item-02-2");
+        /*===== Portfolio Item Code 02_2 =====*/
+        /*===== Lightbox Code 02_2 =====*/
+        let itemIndex02_2 = 0;
+        for (let i = 0; i < PortfolioItems02_2.length; i++) {
+          PortfolioItems02_2[i].addEventListener("click", function () {
+            itemIndex02_2 = i;
+            changeItem02_2();
+            toggleLightbox02_2();
+          });
+        }
+        function nextItem02_2() {
+          if (itemIndex02_2 == PortfolioItems02_2.length - 1) {
+            itemIndex02_2 = 0;
+          }
+          else {
+            itemIndex02_2++
+          }
+          changeItem02_2();
+        }
+        function prevItem02_2() {
+          if (itemIndex02_2 == 0) {
+            itemIndex02_2 = PortfolioItems02_2.length - 1;
+          }
+          else {
+            itemIndex02_2--
+          }
+          changeItem02_2();
+        }
+        const lightbox02_2 = document.querySelector(".lightbox-02-2");
+        lightbox02_2.addEventListener("click", function (event) { // close lightbox
+          if (event.target === lightbox02_2.querySelector(".lightbox-close") || event.target === lightbox02_2) {
+            toggleLightbox02_2()
+          }
+        })
+        function toggleLightbox02_2() {
+          lightbox02_2.classList.toggle("open");
+        }
+        function changeItem02_2() {
+          lightbox02_2.querySelector(".lightbox-img").src = PortfolioItems02_2[itemIndex02_2].querySelector(".portfolio-img img").getAttribute("src");
+          lightbox02_2.querySelector(".caption-text").innerHTML = PortfolioItems02_2[itemIndex02_2].querySelector("h4").innerHTML;
+          lightbox02_2.querySelector(".caption-counter").innerHTML = (itemIndex02_2 + 1) + " of " + PortfolioItems02_2.length;
+        }
+        /*===== Lightbox Code 02_2 =====*/
+      </script>
+
+
+      <!--===== Lightbox Start 033 =====-->
+      <div class="lightbox lightbox-033">
+        <div class="lightbox-content">
+          <div class="lightbox-close">&times;</div>
+          <!-- <img src="" onclick="nextItem01()" class="lightbox-img" alt=""> -->
+          <div class="lightbox-img">
+            <section class="about" id="about" style="background-color: #fff;">
+              <figure class="about-banner">
+                <img src="./assets/img/images/Projects/react/reactjs/movieLand/logo/Logo_01.png" alt="" class="w-100">
+              </figure>
+              <div class="about-content section-content">
+                <p class="section-subtitle" style="font-size: 15px; color: #A57121;">Movie
+                  Land</p>
+                <h2 class="h3 section-title"
+                  style="text-transform: uppercase; font-size: 22px; margin: 10px 0 15px 0; text-align: center; color: #A57121;">
+                  Movie
+                  Land</h2>
+                <p class="section-text" style="font-size: 14px; margin-bottom: 20px;">
+                  Movie Land is a software program that enables users to easily find their favorite movies genre.
+                </p>
+                <p class="section-text" style="font-size: 14px; margin-bottom: 20px;">
+                  A role based security system was implemented to create permission based roles.
+                  The role of Admin, Super User and User restrict what the user can see and do.
+                </p>
+                <p class="section-text" style="font-size: 14px; margin-bottom: 20px;">
+                  The system was built with <strong>React JS</strong>.
+                  The <strong>Fron-End</strong> was developet with <strong>React JS, CSS,</strong> and
+                  <strong>JavaScript</strong>.
+                  The <strong>Back-End</strong> uttilizes http://www.omdbapi.com <strong>Web API</strong>, to get the
+                  data and images.
+                  The <strong>Code</strong> wase hosted and pushed to <strong>GitHub</strong> using <strong>Git</strong>
+                  commands.
+                  <a href="https://ashrafqasem.github.io/movieland-reactjs/" target="_blank"
+                    style="font-weight: bolder; color: #A57121;"> Please visit the site and try it out. &raquo;</a>
+                </p>
+                <div class="btn-group">
+                  <a href="https://ashrafqasem.bsite.net" class="btn btn-secondary" target="_blank"
+                    style="color: #FBD4B4; background-color: #343739; border-color: #343739; font-weight: bolder;">Visit
+                    Website</a>
+                  <!-- <button class="btn btn-secondary">Website Demo</button> -->
+                  <!--===== portfolio-item start =====-->
+                  <div class="portfolio-item portfolio-item-03" data-category="React-Js_">
+                    <div class="portfolio-item-inner">
+                      <div class="portfolio-img">
+                        <!-- <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view01.png" alt=""> -->
+                        <button class="btn btn-secondary"
+                          style="color: #FBD4B4; background-color: #343739; border-color: #343739; font-weight: bolder;">Website
+                          Demo
+                          <img src="assets/img/images/Projects/react/reactjs/movieLand/view/view01.png"
+                            alt="Website Demo" style="display: none;">
+                        </button>
+                      </div>
+                      <div class="portfolio-info" style="display: none;">
+                        <h4>Movie Land</h4>
+                        <div class="icon">
+                          <i class="fa fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--===== portfolio-item end =====-->
+                  <!-- <button class="btn btn-secondary"
+                    style="color: #FBD4B4; background-color: #343739; border-color: #343739; font-weight: bolder;">Code
+                    Demo</button> -->
+                  <!--===== portfolio-item Code start =====-->
+                  <div class="portfolio-item portfolio-item-03-2" data-category="React-Js_">
+                    <div class="portfolio-item-inner">
+                      <div class="portfolio-img">
+                        <!-- <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view01.png" alt=""> -->
+                        <button class="btn btn-secondary"
+                          style="color: #FBD4B4; background-color: #343739; border-color: #343739; font-weight: bolder;">Code
+                          Demo
+                          <img src="assets/img/images/Projects/react/reactjs/movieLand/code/code01.png"
+                            alt="Website Demo" style="display: none;">
+                        </button>
+                      </div>
+                      <div class="portfolio-info" style="display: none;">
+                        <h4>Movie Land</h4>
+                        <div class="icon">
+                          <i class="fa fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--===== portfolio-item Code end =====-->
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <!--===== Lightbox End 033 =====-->
+      <script type="text/javascript">
+        /*===== Portfolio Item 033 =====*/
+        const PortfolioItems033 = document.querySelectorAll(".portfolio-item-033");
+        for (let i = 0; i < totalFilterBtn; i++) {
+          filterBtns[i].addEventListener("click", function () {
+            FilterContainer.querySelector(".active").classList.remove("active");
+            this.classList.add("active");
+            const filterValue = this.getAttribute("data-filter");
+            for (let k = 0; k < PortfolioItems033.length; k++) {
+              if (filterValue === PortfolioItems033[k].getAttribute("data-category")) {
+                PortfolioItems033[k].classList.remove("hide");
+                PortfolioItems033[k].classList.add("show");
+              }
+              else {
+                PortfolioItems033[k].classList.remove("show");
+                PortfolioItems033[k].classList.add("hide");
+              }
+              // if (filterValue === "all" ) {
+              //   PortfolioItems033[k].classList.remove("hide");
+              //   PortfolioItems033[k].classList.add("show");
+              // }
+            }
+            for (let k = 0; k < PortfolioItemsAll.length; k++) {
+              if (filterValue === "all" && PortfolioItemsAll[k].getAttribute("data-category-all") === "all-main") {
+                PortfolioItemsAll[k].classList.remove("hide");
+                PortfolioItemsAll[k].classList.add("show");
+              }
+            }
+          })
+        }
+        /*===== Portfolio Item 033 =====*/
+        /*===== Lightbox 033 =====*/
+        let itemIndex033 = 0;
+        for (let i = 0; i < PortfolioItems033.length; i++) {
+          PortfolioItems033[i].addEventListener("click", function () {
+            itemIndex033 = i;
+            //changeItem033();
+            toggleLightbox033();
+          });
+        }
+        const lightbox033 = document.querySelector(".lightbox-033");
+        lightbox033.addEventListener("click", function (event) { // close lightbox
+          if (event.target === lightbox033.querySelector(".lightbox-close") || event.target === lightbox033) {
+            toggleLightbox033()
+          }
+        })
+        function toggleLightbox033() {
+          lightbox033.classList.toggle("open");
+        }
+        /*===== Lightbox 033 =====*/
+      </script>
+
+      <!--===== Lightbox Start 03 =====-->
+      <div class="lightbox lightbox-03">
+        <div class="lightbox-content">
+          <div class="lightbox-close">&times;</div>
+          <img src="" onclick="nextItem03()" class="lightbox-img" alt="">
+          <div class="lightbox-caption">
+            <div class="caption-text"></div>
+            <div class="caption-counter"></div>
+          </div>
+        </div>
+        <div class="lightbox-controls">
+          <div class="prev-item" onclick="prevItem03()"><i class="fa fa-angle-left"></i></div>
+          <div class="next-item" onclick="nextItem03()"><i class="fa fa-angle-right"></i></div>
+        </div>
+      </div>
+      <!--===== Lightbox End 03 =====-->
+      <div class="row">
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item portfolio-item-03_ hide" data-category="React-Js_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/react/reactjs/movieLand/view/view01.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Movie Land</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item portfolio-item-03 hide" data-category="React-Js_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/react/reactjs/movieLand/view/view02.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Movie Land</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+      </div>
+      <script type="text/javascript">
+        /*===== Portfolio Item 03 =====*/
+        const PortfolioItems03 = document.querySelectorAll(".portfolio-item-03");
+        /*===== Portfolio Item 03 =====*/
+        /*===== Lightbox 03 =====*/
+        let itemIndex03 = 0;
+        for (let i = 0; i < PortfolioItems03.length; i++) {
+          PortfolioItems03[i].addEventListener("click", function () {
+            itemIndex03 = i;
+            changeItem03();
+            toggleLightbox03();
+          });
+        }
+        function nextItem03() {
+          if (itemIndex03 == PortfolioItems03.length - 1) {
+            itemIndex03 = 0;
+          }
+          else {
+            itemIndex03++
+          }
+          changeItem03();
+        }
+        function prevItem03() {
+          if (itemIndex03 == 0) {
+            itemIndex03 = PortfolioItems03.length - 1;
+          }
+          else {
+            itemIndex03--
+          }
+          changeItem03();
+        }
+        const lightbox03 = document.querySelector(".lightbox-03");
+        lightbox03.addEventListener("click", function (event) { // close lightbox
+          if (event.target === lightbox03.querySelector(".lightbox-close") || event.target === lightbox03) {
+            toggleLightbox03()
+          }
+        })
+        function toggleLightbox03() {
+          lightbox03.classList.toggle("open");
+        }
+        function changeItem03() {
+          lightbox03.querySelector(".lightbox-img").src = PortfolioItems03[itemIndex03].querySelector(".portfolio-img img").getAttribute("src");
+          lightbox03.querySelector(".caption-text").innerHTML = PortfolioItems03[itemIndex03].querySelector("h4").innerHTML;
+          lightbox03.querySelector(".caption-counter").innerHTML = (itemIndex03 + 1) + " of " + PortfolioItems03.length;
+        }
+        /*===== Lightbox 03 =====*/
+      </script>
+
+      <!--===== Lightbox Start Code 03-2 =====-->
+      <div class="lightbox lightbox-03-2">
+        <div class="lightbox-content">
+          <div class="lightbox-close">&times;</div>
+          <img src="" onclick="nextItem03_2()" class="lightbox-img" alt="">
+          <div class="lightbox-caption">
+            <div class="caption-text"></div>
+            <div class="caption-counter"></div>
+          </div>
+        </div>
+        <div class="lightbox-controls">
+          <div class="prev-item" onclick="prevItem03_2()"><i class="fa fa-angle-left"></i></div>
+          <div class="next-item" onclick="nextItem03_2()"><i class="fa fa-angle-right"></i></div>
+        </div>
+      </div>
+      <!--===== Lightbox End Code 03-2 =====-->
+      <div class="row">
+        <!--===== portfolio-item code start =====-->
+        <div class="portfolio-item portfolio-item-03-2_ hide" data-category="React-Js_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/react/reactjs/movieLand/code/code01.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Movie Land</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item code end =====-->
+        <!--===== portfolio-item code start =====-->
+        <div class="portfolio-item portfolio-item-03-2 hide" data-category="React-Js_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/react/reactjs/movieLand/code/code02.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Movie Land</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item code end =====-->
+      </div>
+      <script type="text/javascript">
+        /*===== Portfolio Item 03-2 =====*/
+        const PortfolioItems03_2 = document.querySelectorAll(".portfolio-item-03-2");
+        /*===== Portfolio Item 03-2 =====*/
+        /*===== Lightbox 03-2 =====*/
+        let itemIndex03_2 = 0;
+        for (let i = 0; i < PortfolioItems03_2.length; i++) {
+          PortfolioItems03_2[i].addEventListener("click", function () {
+            itemIndex03_2 = i;
+            changeItem03_2();
+            toggleLightbox03_2();
+          });
+        }
+        function nextItem03_2() {
+          if (itemIndex03_2 == PortfolioItems03_2.length - 1) {
+            itemIndex03_2 = 0;
+          }
+          else {
+            itemIndex03_2++
+          }
+          changeItem03_2();
+        }
+        function prevItem03_2() {
+          if (itemIndex03_2 == 0) {
+            itemIndex03_2 = PortfolioItems03_2.length - 1;
+          }
+          else {
+            itemIndex03_2--
+          }
+          changeItem03_2();
+        }
+        const lightbox03_2 = document.querySelector(".lightbox-03-2");
+        lightbox03_2.addEventListener("click", function (event) { // close lightbox
+          if (event.target === lightbox03_2.querySelector(".lightbox-close") || event.target === lightbox03_2) {
+            toggleLightbox03_2()
+          }
+        })
+        function toggleLightbox03_2() {
+          lightbox03_2.classList.toggle("open");
+        }
+        function changeItem03_2() {
+          lightbox03_2.querySelector(".lightbox-img").src = PortfolioItems03_2[itemIndex03_2].querySelector(".portfolio-img img").getAttribute("src");
+          lightbox03_2.querySelector(".caption-text").innerHTML = PortfolioItems03_2[itemIndex03_2].querySelector("h4").innerHTML;
+          lightbox03_2.querySelector(".caption-counter").innerHTML = (itemIndex03_2 + 1) + " of " + PortfolioItems03_2.length;
+        }
+        /*===== Lightbox 03 =====*/
+      </script>
+
+
+
+      <!-- <style>
+        .center {
+          display: block;
+          margin: auto;
+          width: 50%;
+        }
+      </style> -->
+
+      <section class="resume" id="resume">
+        <div class="resume-box center_">
+          <embed src="assets/img/images/Resume/Ashraf_Qasem_Full_Stack_NET_Developer_ash09q.pdf" width="100%;"
+            height="1150px;" type="application/pdf" />
+        </div>
+        <div class="resume-content section-content">
+          <p class="section-subtitle">My resume</p>
+          <h2 class="h3 section-title">What My Work Experience Included?</h2>
+          <p class="section-text">
+            I develop simple, intuitive and responsive user interface that helps users get things done with less effort
+            and time with those technologies.
+          </p>
+        </div>
+      </section>
+
+
+
+
+      <!-- #CONTACT  -->
+      <section class="contact" id="contact">
+        <div class="contact-content section-content">
+          <p class="section-subtitle">Contact</p>
+          <h2 class="h3 section-title">Have You Any Project? Please Drop a Message</h2>
+          <p class="section-text">
+            Get in touch and let me know how i can help. Fill out the form and i’ll be in touch as soon as possible.
+          </p>
+          <ul class="contact-list">
+            <li class="contact-list-item">
+              <div class="contact-item-icon">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Address:</h3>
+                <address class="contact-info">
+                  Leonia, NJ, 07605
+                </address>
+              </div>
+            </li>
+            <li class="contact-list-item">
+              <div class="contact-item-icon">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Email:</h3>
+                <a href="mailto:ash10q@hotmail.com" class="contact-info">ash10q@hotmail.com</a>
+              </div>
+            </li>
+            <li class="contact-list-item">
+              <div class="contact-item-icon">
+                <ion-icon name="call-outline"></ion-icon>
+              </div>
+              <div class="wrapper">
+                <h3 class="h4 contact-item-title">Phone:</h3>
+                <!-- <a href="tel:01234567789" class="contact-info">(01) 234 567 789</a> -->
+                Please contact me via Emial
+              </div>
+            </li>
+            <li>
+              <ul class="contac-social-list">
+                <li>
+                  <a href="#" class="contact-social-link">
+                    <div class="tooltip">Facebook</div>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="contact-social-link">
+                    <div class="tooltip">Twitter</div>
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="contact-social-link">
+                    <div class="tooltip">Linkedin</div>
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#" class="contact-social-link">
+                    <div class="tooltip">Youtube</div>
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <form action="" class="contact-form">
+          <div class="form-wrapper">
+            <label for="name" class="form-label">Name</label>
+            <div class="input-wrapper">
+              <input type="text" name="name" id="name" required placeholder="e.g John Doe" class="input-field">
+              <ion-icon name="person-circle"></ion-icon>
+            </div>
+          </div>
+          <div class="form-wrapper">
+            <label for="email" class="form-label">Email</label>
+            <div class="input-wrapper">
+              <input type="email" name="email" id="email" required placeholder="e.g johndoe@mail.com"
+                class="input-field">
+              <ion-icon name="mail"></ion-icon>
+            </div>
+          </div>
+          <div class="form-wrapper">
+            <label for="phone" class="form-label">Phone</label>
+            <div class="input-wrapper">
+              <input type="tel" name="phone" id="phone" required placeholder="Phone Number" class="input-field">
+              <ion-icon name="call"></ion-icon>
+            </div>
+          </div>
+          <div class="form-wrapper">
+            <label for="message" class="form-label">Message</label>
+            <div class="input-wrapper">
+              <textarea name="message" id="message" required placeholder="Write message..."
+                class="input-field"></textarea>
+              <ion-icon name="chatbubbles"></ion-icon>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </section>
+    </article>
+  </main>
+
+  <!-- #FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p class="h1 logo">
+        <a href="#">
+          Ashraf Qasem<span>.</span>
+        </a>
+      </p>
+      <p class="copyright">
+        &copy; 2024 <a href="#">Ashraf Qasem</a>. All rights reserved
+      </p>
+    </div>
+  </footer>
+
+  <!-- #GO TO TOP-->
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+  <!-- custom js link-->
+  <script src="./assets/js/script.js"></script>
+  <!-- ionicon link -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
