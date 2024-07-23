@@ -3102,6 +3102,520 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+      <!--===== Lightbox Start 044 =====-->
+      <div class="lightbox lightbox-044">
+        <div class="lightbox-content">
+          <div class="lightbox-close">&times;</div>
+          <!-- <img src="" onclick="nextItem01()" class="lightbox-img" alt=""> -->
+          <div class="lightbox-img">
+            <section class="about" id="about" style="background-color: #fff;">
+              <figure class="about-banner">
+                <img src="./assets/img/images/Projects/aspNetMvc/awesomeContact/mvcCore/logo/Logo_07.png" alt=""
+                  class="w-100">
+              </figure>
+              <div class="about-content section-content">
+                <p class="section-subtitle" style="font-size: 13px;">Project Tracker</p>
+                <h2 class="h3 section-title"
+                  style="text-transform: uppercase; font-size: 22px; margin: 10px 0 15px 0; text-align: center; color: #E38445;">
+                  Project Tracker</h2>
+                <p class="section-text" style="font-size: 14px; margin-bottom: 20px;">
+                  Project Tracker is a software program that enables users to easily store and find contact information,
+                  such as names, addresses, and telephone numbers. They are contact-centric databases that provide a
+                  fully integrated approach to tracking all information.
+                </p>
+                <p class="section-text" style="font-size: 14px; margin-bottom: 20px;">
+                  A role based security system was implemented to create permission based roles.
+                  The role of Admin, Super User and User restrict what the user can see and do.
+                </p>
+                <p class="section-text" style="font-size: 14px; margin-bottom: 20px;">
+                  The system was built with <strong>ASP.NET Core MVC</strong> and <strong>C#</strong>.
+                  The <strong>Fron-End</strong> was developet with <strong>HTML, CSS, Bootstrap, DataTables,
+                    JavaScript,</strong> and <strong>JQuery</strong>.
+                  The <strong>Back-End</strong> uttilizes <strong>MVC, C#,</strong> and <strong>Entity
+                    Framework</strong>.
+                  The <strong>Database</strong> wase built with <strong>SQL Server</strong> and hosted on
+                  <strong>AppHarbor</strong> using <strong>Git/ GitHub.</strong>
+                  <a href="https://ashrafqasem2.bsite.net" target="_blank" style="font-weight: bolder; color: #E38445;">
+                    Please visit the
+                    site and try it out. &raquo;</a>
+                </p>
+                <div class="btn-group">
+                  <a href="https://ashrafqasem2.bsite.net" class="btn btn-secondary" target="_blank">Visit Website</a>
+                  <!-- <button class="btn btn-secondary">Website Demo</button> -->
+                  <!--===== portfolio-item start =====-->
+                  <div class="portfolio-item portfolio-item-04" data-category="AspNet-WebApi-React_">
+                    <div class="portfolio-item-inner">
+                      <div class="portfolio-img">
+                        <!-- <img src="assets/img/images/Projects/aspNetWebApi/react/activitiesHub/view/view01.png" alt=""> -->
+                        <button class="btn btn-secondary">Website Demo
+                          <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/view/view01.png"
+                            alt="Website Demo" style="display: none;">
+                        </button>
+                      </div>
+                      <div class="portfolio-info" style="display: none;">
+                        <h4>Project Tracker</h4>
+                        <div class="icon">
+                          <i class="fa fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--===== portfolio-item end =====-->
+                  <!-- <button class="btn btn-secondary">Code Demo</button> -->
+                  <!--===== portfolio-item Code start =====-->
+                  <div class="portfolio-item portfolio-item-04-2" data-category="AspNet-Mvc_">
+                    <div class="portfolio-item-inner">
+                      <div class="portfolio-img">
+                        <!-- <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/code/code01.png" alt=""> -->
+                        <button class="btn btn-secondary">Website Demo
+                          <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/code/code01.png"
+                            alt="Code Demo" style="display: none;">
+                        </button>
+                      </div>
+                      <div class="portfolio-info" style="display: none;">
+                        <h4>Project Tracker</h4>
+                        <div class="icon">
+                          <i class="fa fa-search"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--===== portfolio-item Code end =====-->
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+      <!--===== Lightbox End 044 =====-->
+      <script type="text/javascript">
+        /*===== Portfolio Item 044 =====*/
+        const PortfolioItems044 = document.querySelectorAll(".portfolio-item-044");
+        for (let i = 0; i < totalFilterBtn; i++) {
+          filterBtns[i].addEventListener("click", function () {
+            FilterContainer.querySelector(".active").classList.remove("active");
+            this.classList.add("active");
+            const filterValue = this.getAttribute("data-filter");
+            for (let k = 0; k < PortfolioItems044.length; k++) {
+              if (filterValue === PortfolioItems044[k].getAttribute("data-category")) {
+                PortfolioItems044[k].classList.remove("hide");
+                PortfolioItems044[k].classList.add("show");
+              }
+              else {
+                PortfolioItems044[k].classList.remove("show");
+                PortfolioItems044[k].classList.add("hide");
+              }
+              // if (filterValue === "all" ) {
+              //   PortfolioItems044[k].classList.remove("hide");
+              //   PortfolioItems044[k].classList.add("show");
+              // }
+            }
+            for (let k = 0; k < PortfolioItemsAll.length; k++) {
+              if (filterValue === "all" && PortfolioItemsAll[k].getAttribute("data-category-all") === "all-main") {
+                PortfolioItemsAll[k].classList.remove("hide");
+                PortfolioItemsAll[k].classList.add("show");
+              }
+            }
+          })
+        }
+        /*===== Portfolio Item 044 =====*/
+        /*===== Lightbox 044 =====*/
+        let itemIndex044 = 0;
+        for (let i = 0; i < PortfolioItems044.length; i++) {
+          PortfolioItems044[i].addEventListener("click", function () {
+            itemIndex044 = i;
+            toggleLightbox044();
+          });
+        }
+        const lightbox044 = document.querySelector(".lightbox-044");
+        lightbox044.addEventListener("click", function (event) { // close lightbox
+          if (event.target === lightbox044.querySelector(".lightbox-close") || event.target === lightbox044) {
+            toggleLightbox044()
+          }
+        })
+        function toggleLightbox044() {
+          lightbox044.classList.toggle("open");
+        }
+        /*===== Lightbox 044 =====*/
+      </script>
+
+      <!--===== Lightbox Start 04 =====-->
+      <div class="lightbox lightbox-04">
+        <div class="lightbox-content">
+          <div class="lightbox-close">&times;</div>
+          <img src="" onclick="nextItem04()" class="lightbox-img" alt="">
+          <div class="lightbox-caption">
+            <div class="caption-text"></div>
+            <div class="caption-counter"></div>
+          </div>
+        </div>
+        <div class="lightbox-controls">
+          <div class="prev-item" onclick="prevItem04()"><i class="fa fa-angle-left"></i></div>
+          <div class="next-item" onclick="nextItem04()"><i class="fa fa-angle-right"></i></div>
+        </div>
+      </div>
+      <!--===== Lightbox End 04 =====-->
+      <div class="row">
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item portfolio-item-04_ hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/view/view01.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Project Tracker</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item  portfolio-item-04 hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/view/view02.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Project Tracker</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item  portfolio-item-04 hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/view/view03.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Project Tracker</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item  portfolio-item-04 hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/view/view04.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Project Tracker</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item  portfolio-item-04 hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/view/view05.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Project Tracker</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item  portfolio-item-04 hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/view/view06.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Project Tracker</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+        <!--===== portfolio-item start =====-->
+        <div class="portfolio-item  portfolio-item-04 hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/view/view07.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Project Tracker</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item end =====-->
+      </div>
+      <script type="text/javascript">
+        /*===== Portfolio Item 04 =====*/
+        const PortfolioItems04 = document.querySelectorAll(".portfolio-item-04");
+        /*===== Portfolio Item 04 =====*/
+        /*===== Lightbox 04 =====*/
+        let itemIndex04 = 0;
+        for (let i = 0; i < PortfolioItems04.length; i++) {
+          PortfolioItems04[i].addEventListener("click", function () {
+            itemIndex04 = i;
+            changeItem04();
+            toggleLightbox04();
+          });
+        }
+        function nextItem04() {
+          if (itemIndex04 == PortfolioItems04.length - 1) {
+            itemIndex04 = 0;
+          }
+          else {
+            itemIndex04++
+          }
+          changeItem04();
+        }
+        function prevItem04() {
+          if (itemIndex04 == 0) {
+            itemIndex04 = PortfolioItems04.length - 1;
+          }
+          else {
+            itemIndex04--
+          }
+          changeItem04();
+        }
+        const lightbox04 = document.querySelector(".lightbox-04");
+        lightbox04.addEventListener("click", function (event) { // close lightbox
+          if (event.target === lightbox04.querySelector(".lightbox-close") || event.target === lightbox04) {
+            toggleLightbox04()
+          }
+        })
+        function toggleLightbox04() {
+          lightbox04.classList.toggle("open");
+        }
+        function changeItem04() {
+          lightbox04.querySelector(".lightbox-img").src = PortfolioItems04[itemIndex04].querySelector(".portfolio-img img").getAttribute("src");
+          lightbox04.querySelector(".caption-text").innerHTML = PortfolioItems04[itemIndex04].querySelector("h4").innerHTML;
+          lightbox04.querySelector(".caption-counter").innerHTML = (itemIndex04 + 1) + " of " + PortfolioItems04.length;
+        }
+        /*===== Lightbox 04 =====*/
+      </script>
+
+      <!--===== Lightbox Start Code 04-2 =====-->
+      <div class="lightbox lightbox-04-2">
+        <div class="lightbox-content">
+          <div class="lightbox-close">&times;</div>
+          <img src="" onclick="nextItem04_2()" class="lightbox-img" alt="">
+          <div class="lightbox-caption">
+            <div class="caption-text"></div>
+            <div class="caption-counter"></div>
+          </div>
+        </div>
+        <div class="lightbox-controls">
+          <div class="prev-item" onclick="prevItem04_2()"><i class="fa fa-angle-left"></i></div>
+          <div class="next-item" onclick="nextItem04_2()"><i class="fa fa-angle-right"></i></div>
+        </div>
+      </div>
+      <!--===== Lightbox End Code 04-2 =====-->
+      <div class="row">
+        <!--===== portfolio-item Code start =====-->
+        <div class="portfolio-item portfolio-item-04-2_ hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/code/code01.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Project Tracker</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item Code end =====-->
+        <!--===== portfolio-item Code start =====-->
+        <div class="portfolio-item portfolio-item-04-2_ hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/code/code02.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Project Tracker</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item Code end =====-->
+        <!--===== portfolio-item Code start =====-->
+        <div class="portfolio-item portfolio-item-04-2_ hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/code/code03.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Project Tracker</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item Code end =====-->
+        <!--===== portfolio-item Code start =====-->
+        <div class="portfolio-item portfolio-item-04-2_ hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/code/code04.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Project Tracker</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item Code end =====-->
+        <!--===== portfolio-item Code start =====-->
+        <div class="portfolio-item portfolio-item-04-2_ hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/code/code05.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Project Tracker</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item Code end =====-->
+        <!--===== portfolio-item Code start =====-->
+        <div class="portfolio-item portfolio-item-04-2_ hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/code/code06.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Project Tracker</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item Code end =====-->
+        <!--===== portfolio-item Code start =====-->
+        <div class="portfolio-item portfolio-item-04-2_ hide" data-category="AspNet-Mvc_">
+          <div class="portfolio-item-inner">
+            <div class="portfolio-img">
+              <img src="assets/img/images/Projects/aspNetMvc/projectTracker/mvcCore/code/code07.png" alt="">
+            </div>
+            <div class="portfolio-info">
+              <h4>Project Tracker</h4>
+              <div class="icon">
+                <i class="fa fa-search"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--===== portfolio-item Code end =====-->
+      </div>
+      <script type="text/javascript">
+        /*===== Portfolio Item Code 04_2 =====*/
+        const PortfolioItems04_2 = document.querySelectorAll(".portfolio-item-04-2");
+        /*===== Portfolio Item Code 04_2 =====*/
+        /*===== Lightbox Code 04_2 =====*/
+        let itemIndex04_2 = 0;
+        for (let i = 0; i < PortfolioItems04_2.length; i++) {
+          PortfolioItems04_2[i].addEventListener("click", function () {
+            itemIndex04_2 = i;
+            changeItem04_2();
+            toggleLightbox04_2();
+          });
+        }
+        function nextItem04_2() {
+          if (itemIndex04_2 == PortfolioItems04_2.length - 1) {
+            itemIndex04_2 = 0;
+          }
+          else {
+            itemIndex04_2++
+          }
+          changeItem04_2();
+        }
+        function prevItem04_2() {
+          if (itemIndex04_2 == 0) {
+            itemIndex04_2 = PortfolioItems04_2.length - 1;
+          }
+          else {
+            itemIndex04_2--
+          }
+          changeItem04_2();
+        }
+        const lightbox04_2 = document.querySelector(".lightbox-04-2");
+        lightbox04_2.addEventListener("click", function (event) { // close lightbox
+          if (event.target === lightbox04_2.querySelector(".lightbox-close") || event.target === lightbox04_2) {
+            toggleLightbox04_2()
+          }
+        })
+        function toggleLightbox04_2() {
+          lightbox04_2.classList.toggle("open");
+        }
+        function changeItem04_2() {
+          lightbox04_2.querySelector(".lightbox-img").src = PortfolioItems04_2[itemIndex04_2].querySelector(".portfolio-img img").getAttribute("src");
+          lightbox04_2.querySelector(".caption-text").innerHTML = PortfolioItems04_2[itemIndex04_2].querySelector("h4").innerHTML;
+          lightbox04_2.querySelector(".caption-counter").innerHTML = (itemIndex04_2 + 1) + " of " + PortfolioItems04_2.length;
+        }
+        /*===== Lightbox Code 04_2 =====*/
+      </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <!-- <style>
         .center {
           display: block;
@@ -3239,13 +3753,10 @@
   <footer class="footer">
     <div class="container">
       <p class="h1 logo">
-        <a href="#">
-          Ashraf Qasem<span>.</span>
-        </a>
+        <a href="https://ashrafqasem.github.io/Portfolio/#resume">Ashraf Qasem<span>.</span></a>
       </p>
-      <p class="copyright">
-        &copy; 2024 <a href="#">Ashraf Qasem</a>. All rights reserved
-      </p>
+      <p class="copyright"> &copy; 2024 <a href="https://ashrafqasem.github.io/Portfolio/#resume">Ashraf Qasem</a>. All
+        rights reserved</p>
     </div>
   </footer>
 
